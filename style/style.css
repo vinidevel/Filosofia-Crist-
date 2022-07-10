@@ -1,0 +1,133 @@
+*{
+    margin: 0 auto;
+}
+body{ 
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: rgba(235, 229, 229, 0.671);
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(5, 196, 101, 0.781);
+    
+}
+
+#titulo-logo{
+    color: rgba(66, 65, 65, 0.877);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 20px 0 20px 0;
+    
+}
+
+.caixa {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+text-align: center;
+padding: 20px;
+
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0;
+    
+    
+}
+
+nav li:hover{
+    background-color:  rgba(5, 196, 101, 0.521);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    margin: 30px auto;
+    width: 960px;  
+}
+
+
+.place a{ 
+
+    text-decoration: none;
+    color: rgb(95, 82, 7);
+    font-weight: bolder;
+   
+}
+
+.place{
+    border-color: rgb(99, 98, 98);
+    border: 1px solid gray;
+    margin: 0 0 20px 0;
+    padding:30px;
+    background-color: white;
+  
+   
+}
+
+.place h2{
+    border-bottom: 1px solid;
+    margin: 0;
+}
+
+.place img{
+    border: 1px solid gray;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.place p {
+    margin-top: 5px;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+.places{
+    float: left;
+    width: 660px;
+}
+
+.sidenote{
+    background-color: rgb(211, 211, 211);
+    border: 1px solid gray;
+    float: right;
+    padding: 10px;
+    width: 240px;
+}
+
+.sidenote h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.sidenote ol{
+    font-size: 12px;
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+}
+
