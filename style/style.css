@@ -7,10 +7,12 @@ body{
     background-color: rgba(235, 229, 229, 0.671);
     margin: 0 auto;
     text-align: center;
+    width: 100%;
 }
 
 header{
     background-color: rgba(5, 196, 101, 0.781);
+    width: 100%;
     
 }
 
@@ -130,4 +132,39 @@ img{
     text-align: center;
     clear: both;
 }
+
+@media  screen and (max-width: 480px){
+
+    .container{
+        margin: 10px auto;
+        width: 310px;  
+        justify-items: center;
+    }
+
+    .places{
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    .place{
+        width: 240px;
+        text-align: center;  
+    }
+
+   .place img{
+        text-align: center;
+        margin: 30px;
+        width: 170px;
+
+    }
+
+    .sidenote{
+
+        margin: 30px;
+    }
+    
+    }
+    
+
 
