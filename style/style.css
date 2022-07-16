@@ -1,93 +1,94 @@
-*{
-    margin: 0 auto;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-body{ 
+
+body {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height: 1.6;
     background-color: rgba(235, 229, 229, 0.671);
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    font-size: 100%;
 }
 
-header{
+.cabecalho {
     background-color: rgba(5, 196, 101, 0.781);
     width: 100%;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#titulo-logo{
+#cabecalho-titulo-logo {
     color: rgba(66, 65, 65, 0.877);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
     padding: 20px 0 20px 0;
-    
-}
-
-.caixa {
-    font-family: 'Montserrat', sans-serif;
-}
-
-nav{
-text-align: center;
-padding: 20px;
 
 }
 
-nav li {
-    display: inline;
-    list-style: none;
-    padding: 10px;
-    text-decoration: none;
-    margin: 0;
-    
-    
+
+nav {
+   
+    padding: 20px;
+
 }
 
-nav li:hover{
-    background-color:  rgba(5, 196, 101, 0.521);
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+
+
 }
 
-nav a{
+nav li:hover {
+    background-color: rgba(5, 196, 101, 0.521);
+}
+
+nav a {
     text-decoration: none;
     color: white;
-    
+
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
 }
 
-.container{
+.container {
     margin: 30px auto;
-    width: 960px;  
+    width: 960px;
 }
 
 
-.place a{ 
+.place a {
 
     text-decoration: none;
     color: rgb(95, 82, 7);
     font-weight: bolder;
-   
+
 }
 
-.place{
+.place {
     border-color: rgb(99, 98, 98);
     border: 1px solid gray;
     margin: 0 0 20px 0;
-    padding:30px;
+    padding: 30px;
     background-color: white;
-  
-   
+
+
 }
 
-.place h2{
+.place h2 {
     border-bottom: 1px solid;
     margin: 0;
 }
 
-.place img{
+.place img {
     border: 1px solid gray;
     float: left;
     margin: 10px 10px 0 0;
@@ -98,19 +99,20 @@ nav a:hover{
     margin-top: 5px;
 }
 
-img{
+img {
     margin-bottom: 10px;
 }
 
-.clear{
+.clear {
     clear: both;
 }
-.places{
+
+.places {
     float: left;
     width: 660px;
 }
 
-.sidenote{
+.sidenote {
     background-color: rgb(211, 211, 211);
     border: 1px solid gray;
     float: right;
@@ -118,53 +120,80 @@ img{
     width: 240px;
 }
 
-.sidenote h3{
+.sidenote h3 {
     font-size: 14px;
     margin-top: 0;
 }
 
-.sidenote ol{
+.sidenote ol {
     font-size: 12px;
 }
 
-.footer{
+.footer {
     font-size: 12px;
     text-align: center;
     clear: both;
 }
 
-@media  screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
-    .container{
+    .cabecalho {
+        
+        background-color: rgba(5, 196, 101, 0.781);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cabecalho-titulo-logo {
+        display: flex;
+        color: rgba(66, 65, 65, 0.877);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2.0em;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cabecalho-menu {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+       
+        width: 100%;
+        margin: 0;
+    
+    }
+
+    .container {
         margin: 10px auto;
-        width: 310px;  
+        width: 310px;
         justify-items: center;
     }
 
-    .places{
+    .places {
         text-align: center;
         width: 300px;
         margin: 0 auto;
         display: block;
     }
-    .place{
+
+    .place {
         width: 240px;
-        text-align: center;  
+        text-align: center;
     }
 
-   .place img{
+    .place img {
         text-align: center;
         margin: 30px;
         width: 170px;
 
     }
 
-    .sidenote{
+    .sidenote {
 
         margin: 30px;
     }
-    
-    }
-    
 
-
+}
