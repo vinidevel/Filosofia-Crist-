@@ -4,6 +4,8 @@
     text-decoration: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 body {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height: 1.6;
@@ -21,6 +23,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
+}
+
+h1 a {
+    text-decoration: non
 }
 
 #cabecalho-titulo-logo {
@@ -28,7 +35,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
     padding: 20px 0 20px 0;
+    font-family: 'Passion One', cursive;
+    transition: 1.8ms all;
+    text-decoration: none;
+    
+}
 
+#cabecalho-titulo-logo:hover {
+    transform: scale(1.05);
 }
 
 
@@ -41,9 +55,11 @@ nav {
 .cabecalho-menu {
     display: flex;
     gap: 30px;
-
-
+    font-family: 'Passion One', cursive;
+    font-size: 1.1em;
 }
+
+
 
 nav li:hover {
     background-color: rgba(5, 196, 101, 0.521);
@@ -64,6 +80,17 @@ nav a:hover {
     width: 960px;
 }
 
+.places {
+    float: left;
+    width: 660px;
+   
+}
+
+.place:hover{
+    border: 2px solid  rgba(5, 196, 101, 0.521);
+    cursor: pointer;
+    transform: scale(1.04);
+}
 
 .place a {
 
@@ -79,7 +106,7 @@ nav a:hover {
     margin: 0 0 20px 0;
     padding: 30px;
     background-color: white;
-
+    transition: 0.9s all;
 
 }
 
@@ -107,10 +134,7 @@ img {
     clear: both;
 }
 
-.places {
-    float: left;
-    width: 660px;
-}
+
 
 .sidenote {
     background-color: rgb(211, 211, 211);
@@ -127,6 +151,7 @@ img {
 
 .sidenote ol {
     font-size: 12px;
+    text-decoration: none;
 }
 
 .footer {
@@ -135,7 +160,7 @@ img {
     clear: both;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
 
     .cabecalho {
         background-color: rgba(5, 196, 101, 0.781);
