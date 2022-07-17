@@ -1,0 +1,64 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="faleconosco.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <div>
+            <a href="index.html">
+                <h1 id="cabecalho-titulo-logo">Filosofia Cristã</h1>
+            </a>
+        </div>
+
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="">Início</a>
+            <a class="cabecalho-menu-item" href="">Sobre Nós</a>
+            <a class="cabecalho-menu-item" href="">Fale Conosco</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form action="contato.php" method="get" id="formulario">
+
+            <h1 id="titulo-formulario">FALE CONOSCO</h1>
+
+
+            <label class="formulario-faleconosco" for="">Nome:</label>
+            <input class="formulario-faleconosco" type="text" name="nome" id="" required >
+
+
+
+            <label class="formulario-faleconosco" for="">E-mail:</label>
+            <input class="formulario-faleconosco" type="email" name="email" id="" required placeholder="seuemail@dominio.com.br" >
+
+
+
+            <label class="formulario-faleconosco" for="">Telefone:</label>
+            <input class="formulario-faleconosco" type="tel" name="telefone" id="" required placeholder="(xx) xxxxx-xxxx" >
+
+            <label class="formulario-faleconosco" for="">Mensagem:</label>
+            <textarea name="mensagem" class="formulario-faleconosco" cols="5" rows="20" class="input-padrao" required></textarea>
+
+            <input id="botao" type="button" value="Enviar">
+
+        </form>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>

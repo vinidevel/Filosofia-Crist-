@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: rgba(235, 229, 229, 0.671);
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+}
+
+.cabecalho {
+    background-color: rgba(5, 196, 101, 0.781);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+h1 a {
+    text-decoration: non
+}
+
+#cabecalho-titulo-logo {
+    color: rgba(66, 65, 65, 0.877);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 20px 0 20px 0;
+    font-family: 'Passion One', cursive;
+    transition: 1.8ms all;
+    text-decoration: none;
+    
+}
+
+#cabecalho-titulo-logo:hover {
+    transform: scale(1.05);
+}
+
+
+nav {
+   
+    padding: 20px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    font-family: 'Passion One', cursive;
+    font-size: 1.1em;
+}
+
+
+
+nav li:hover {
+    background-color: rgba(5, 196, 101, 0.521);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main{
+    margin: auto;
+}
+
+#formulario{
+
+    margin: 60px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid gray;
+    width: 700px;
+    height: 600px;
+
+}
+
+.formulario-faleconosco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     
+}
+
+ #formulario h1{
+    text-align: left;
+    font-size: 1.3em;
+    border-bottom: 1px solid gray;
+   
+ }
+
+input{
+    width: 250px;
+}
+
+#botao{
+    width: 80px;
+    height: 50px;
+    margin: auto;
+    background-color:rgba(5, 196, 101, 0.781);
+    border: none;
+    font-weight: bolder;
+}
+
+#botao:hover{
+    border: 2px solid green;
+}
+
+
