@@ -123,4 +123,35 @@ input{
     border: 2px solid green;
 }
 
+@media screen and (max-width: 720px) {
+
+    .cabecalho {
+        background-color: rgba(5, 196, 101, 0.781);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #cabecalho-titulo-logo {
+        display: flex;
+        color: rgba(66, 65, 65, 0.877);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2.0em;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cabecalho-menu {
+        display: flex;
+        gap: 25px;
+        flex-direction: row;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
 
